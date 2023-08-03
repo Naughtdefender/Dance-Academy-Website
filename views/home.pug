@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+    include ../static/index.js
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#introSection 
+        div Welcome to Sharma's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div.card  
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img2.png")
+                div.card-content 
+                    p This is the best dance academy of the universe
+
+        div.card 
+            h3 Expert Dancing
+            div.card-box
+                div.card-img
+                    img(src="/static/img3.png")
+                div.card-content 
+                    p This is the best dance academy of the universe
+
+    section#sponsorSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src='/static/logo1.png' alt="logo1" class="spImage")
+            img(src='/static/logo2.png' alt="logo2" class="spImage")
+            img(src='/static/logo3.png' alt="logo3" class="spImage")
+            img(src='/static/logo4.png' alt="logo4" class="spImage")
+            img(src='/static/logo5.png' alt="logo5" class="spImage")

@@ -1,0 +1,44 @@
+.container {
+    min-height: 75vh;
+    margin: 43px 0;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    width: 40%;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
